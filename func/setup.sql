@@ -6,5 +6,3 @@ CREATE TABLE posts (
     parentid INT,
     post VARCHAR(256)
 );
-
-TRUNCATE TABLE posts;
