@@ -58,12 +58,3 @@ function existid($conn, $id) {
     $result = $conn->query($sql);
     return $result->num_rows > 0;
 }
-
-// function getid($conn, $post) {
-//     $sql = "SELECT id FROM posts WHERE post = '$post'";
-//     $result = $conn->query($sql);
-//     if ($result->num_rows > 0) {
-//         return $result->fetch_assoc()['id'];
-//     }
-//     return false;
-// }
